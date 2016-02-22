@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <style type="text/css">
+            body {
+                background-color: rgb(249, 249, 249);
+                margin: 0;
+                text-align: center;
+                padding: 0 10px 0 10px;
+            }
+
+            p { text-align: center; }
+
+            #container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+
+            #header {
+                margin: 0 auto 0 auto;
+                padding-top: 20px;
+                border-bottom: 1px solid #e9edee;
+            }
+
+            #header td {
+
+                background-color: white;
+                color: #4f565d;
+                font-size: 13px;
+                line-height: 20px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+            }
+
+            #header td p {
+                padding: 0;
+                margin: 3px 10px 3px 10px;
+                line-height: 0;
+            }
+
+            #header td p a {
+                text-decoration: none;
+                color: #00a3d4;
+            }
+
+            .img-logo {
+                max-height: 60px;
+                max-width: 650px;
+                border-width: 0;
+                padding: 10px 0;
+            }
+
+            #content {
+                text-align: center;
+                margin: 0 auto 0 auto;
+                padding: 30px 0 30px 0;
+            }
+
+            #content td {
+                color: #4f565d;
+                font-size: 13px;
+                line-height: 20px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+            }
+
+            #content h1 {
+                color: #1d2227;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+                line-height: 28px;
+                font-size: 22px;
+                font-weight: normal;
+                margin: 12px 10px 20px 10px;
+            }
+
+            #content p {
+                margin: 0 10px 10px 10px;
+                padding: 0;
+            }
+
+            #content a { text-decoration: none; }
+
+            #footer {
+                background-color: rgb(230, 233, 234);
+                margin: 0 auto 0 auto;
+                padding: 24px 0 16px 0;
+                border-top: 1px solid #e9edee;
+            }
+
+            #footer td {
+                color: #4f565d;
+                font-size: 13px;
+                line-height: 20px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+            }
+
+            #footer p {
+                margin: 0 10px 10px 10px;
+                padding: 0;
+                color: #9b9fa5;
+            }
+
+            #footer a {
+                text-decoration: none;
+                color: #666d74;
+            }
+
+            .btn {
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+                text-shadow: 1px 1px 0px #666666;
+                -webkit-box-shadow: 0px 3px 2px #0088b5;
+                -moz-box-shadow: 0px 3px 2px #0088b5;
+                box-shadow: 0px 3px 2px #0088b5;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 16px;
+                background: #00b2ed;
+                padding: 15px 80px;
+                text-decoration: none;
+            }
+
+            .mainContent {
+                margin-top: 30px;
+                text-align: left;
+                font-size: 18px;
+                color: rgb(18, 50, 79);
+            }
+
+            .mainContent p{
+                text-align: left;
+            }
+
+
+            .information {
+
+                margin-top: 30px;
+
+            }
+
+            .information p {
+                text-align: left;
+                 font-size: 14px;
+                 color: black;
+            }
+
+            @media (max-width: 600px) {
+                .btn {
+                    padding: 10px 30px;
+                    font-size: 14px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <center>
+                <table id="header" width="650" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="td-header">
+                            <p>
+                                <img src="[[PracticeLogoUrl]]" alt="Xero"  border="0" class="img-logo" />
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="content" width="650" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td valign="top">
+                            <h2> Document to Sign</h2>
+                            <h3 style="color: gray;">[[PracticeName]]</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <div class="mainContent">
+                                <p>
+                                    [[MainContent]]
+                                    <br />Hi Peng,<br />We've just finished your tax return. Please take a minute to review and sign so we can lodge it with the ATO. Thanks.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="top">
+                            <div class="information">
+                                <p>We are using Xero to send documents.</p>
+                                <p>If you're registered with Xero with a different email address, request this document <br/>to be sent there so you can use the one login.
+                                </p>
+                                <p>If you don't have a Xero account, you'll be asked to enter a password to activate.</p>
+                            </div>
+
+                            <div class="information">
+                                <p>
+                                    <a href="https://practicestudiohelp.xero.com/au/Tax-EsignReturn-AU" target="_blank">How to sign</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  valign="top" style="line-height: 60px;">
+                            <p style="margin-top: 30px;">
+                                <a class="btn" href="[[CurrentDocument]]">Review Documents</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="footer" width="650" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td align="center" valign="top">
+                            <p >
+                                <img src="[[XeroLogoUrl]]" />
+                            </p>
+                            <p>
+                                Powered by Xero, beautiful accounting software.
+                            </p>
+                            <p>
+                                <a style="color: #00b2ed" href="http://www.xero.com">www.xero.com</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </body>
+</html>
